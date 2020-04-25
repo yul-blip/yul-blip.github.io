@@ -1,0 +1,26 @@
+.cart-icon {
+	width: 20px;
+	height: 20px;
+	position: relative;
+
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	&__counter {
+		width: 15px;
+		height: 15px;
+		background-color: green;
+		color: white;
+		position: absolute;
+		right: -7px;
+		top: -7px;
+		border-radius: 100%;
+		font-size: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
